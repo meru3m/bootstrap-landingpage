@@ -7,6 +7,7 @@ section {
     padding: 60px 0;
 }
 
+
 .navbar {
     background-color: rgb(104, 103, 103);
 }
@@ -21,4 +22,12 @@ section {
 
 a[href="#sidebar"] {
   text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
