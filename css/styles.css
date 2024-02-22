@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.navbar {
+    background-color: rgb(104, 103, 103);
+}
+
+.navbar a, .navbar button {
+  color: rgb(233, 233, 233);
+}
+
+.navbar-toggler-icon {
+    stroke: rgb(233, 233, 233);
+}
+
+a[href="#sidebar"] {
+  text-decoration: none;
+}
